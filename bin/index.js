@@ -28,7 +28,11 @@ var chooseCount = Math.floor(yourGender.length / count)
 var target = []
 
 for(var i=0;i<count;i++){
-    var index = Math.floor(Math.random()* count) + i * chooseCount
+    var index = Math.floor(Math.random()* chooseCount) + i * chooseCount
+    var one = yourGender[index]
+    if(!one){
+        console.log('null @' + index)
+    }
     target.push(yourGender[index])
 }
 
