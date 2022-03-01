@@ -1,0 +1,15 @@
+{
+  "name": "zs.name.js",
+  "version": "1.0.0",
+  "description": "这里用于生成zs所需要的名字",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lisa.csv.parser.js": "^1.0.2",
+    "lisa.utils": "^2.5.0"
+  }
+}
